@@ -1,0 +1,31 @@
+﻿Build started 15/12/2015 2:05:16 PM.
+     1>Project "G:\Compg\ComputerGraphics02\ComputerGraphics02.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ComputerGraphics02.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Programs\Visual Studio 2013\VC\bin\CL.exe /c /IG:\Compg\\glfw\include /IG:\Compg\\glew\include /IG:\Compg\\Common\Source /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt source\Assignment2.cpp
+         Assignment2.cpp
+     1>g:\compg\computergraphics02\source\assignment2.cpp(80): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>g:\compg\computergraphics02\source\assignment2.cpp(93): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         E:\Programs\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Compg\Debug\MyGraphics.exe" /INCREMENTAL /NOLOGO /LIBPATH:G:\Compg\Debug /LIBPATH:"G:\Compg\\glfw\lib-msvc120" /LIBPATH:G:\Compg\\glew\lib glew32.lib glfw3.lib opengl32.lib winmm.lib Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Compg\Debug\MyGraphics.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Compg\Debug\MyGraphics.lib" /MACHINE:X86 Debug\Application.obj
+         Debug\Assignment1.obj
+         Debug\Assignment2.obj
+         Debug\Camera.obj
+         Debug\Camera2.obj
+         Debug\main.obj
+         Debug\Mesh.obj
+         Debug\MeshBuilder.obj
+         Debug\Scene1.obj
+         Debug\Scene2.obj
+         Debug\Scene3.obj
+         Debug\Scene4.obj
+         Debug\SceneLight.obj
+         Debug\SceneLight2.obj
+         Debug\shader.obj
+         Debug\Utility.obj
+         ComputerGraphics02.vcxproj -> G:\Compg\Debug\MyGraphics.exe
+     1>Done Building Project "G:\Compg\ComputerGraphics02\ComputerGraphics02.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.41

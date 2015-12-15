@@ -1,0 +1,9 @@
+﻿Build started 15/12/2015 12:22:38 PM.
+     1>Project "G:\Compg\common\common.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         common.vcxproj -> G:\Compg\Debug\common.lib
+     1>Done Building Project "G:\Compg\common\common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.03

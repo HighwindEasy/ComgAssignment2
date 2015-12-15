@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyGraphics", "ComputerGraphics02\ComputerGraphics02.vcxproj", "{63420B71-ED59-43D4-8BB6-48EA80E2B7BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810} = {39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcxproj", "{39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63420B71-ED59-43D4-8BB6-48EA80E2B7BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{63420B71-ED59-43D4-8BB6-48EA80E2B7BC}.Debug|Win32.Build.0 = Debug|Win32
+		{63420B71-ED59-43D4-8BB6-48EA80E2B7BC}.Release|Win32.ActiveCfg = Release|Win32
+		{63420B71-ED59-43D4-8BB6-48EA80E2B7BC}.Release|Win32.Build.0 = Release|Win32
+		{39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810}.Debug|Win32.Build.0 = Debug|Win32
+		{39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810}.Release|Win32.ActiveCfg = Release|Win32
+		{39BAEDBC-EF12-4A7F-8F82-2EA79CAAA810}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
